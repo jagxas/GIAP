@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;700&family=Noto+Sans+Arabic&display=swap');
+
+@font-face {
+  font-family: "Neue Haas Grotesk";
+  src: url('/fonts/nhd-medium.woff2') format('woff2'), local("Segoe UI");
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neue Haas Grotesk";
+  src: url('/fonts/nhd-medium-italic.woff2') format('woff2'), local("Segoe UI");
+  font-weight: 500;
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Neue Haas Grotesk";
+  src: url('/fonts/nhd-roman.woff2') format('woff2'), local("Segoe UI");
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neue Haas Grotesk";
+  src: url('/fonts/nhd-roman-italic.woff2') format('woff2'), local("Segoe UI");
+  font-weight: 400;
+  font-display: swap;
+  font-style: italic;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  --font-family-NHG: 'Neue Haas Grotesk', Impact;
+
+  --landing-page-bg-color-1: #f9f6ee;
+  --landing-page-font-color-navbar: #292929;
+  --landing-page-font-color-navbar-hovered: #000000;
+  --landing-page-font-color-button: #fffffe;
+  --landing-page-button-color: #2B44FF;
+  --landing-page-button-gradient: linear-gradient(#2B44FF, #0014AA, 30deg);
+
+  background-color: var(--landing-page-bg-color-1);
+}
+
+html, body{
+  margin: 0px;
+  padding: 0px;
+  overflow-y: visible;
+  /* background-image: url("https://4kwallpapers.com/images/wallpapers/windows-11-blue-stock-white-background-light-official-2880x1800-5616.jpg");
+  background-size: contain; */
+  background-repeat: no-repeat;
+}
+

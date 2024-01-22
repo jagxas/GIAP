@@ -1,0 +1,111 @@
+@import url('../../index.css');
+
+body {
+    background-color: #f9f6ee;
+}
+
+.LandingPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+}
+
+.landing-page-welcome {
+    display: grid;
+    grid-template-columns: 100%;
+
+    margin: 80px 5vw 0px 5vw;
+    /* background-color: rgb(198, 255, 255); */
+    /* padding: 0 10vw 0 10vw; */
+
+    width: 90vw;
+    max-width: 1400px;
+}
+.landing-page-welcome-text {
+    font-size: 54px;
+    font-family: var(--font-family-NHG);
+    font-weight: 500;
+    font-style: normal;
+
+    color: #101010;
+    text-shadow: 0px 4px 8px rgba(20, 20, 20, 0.25);
+}
+
+.welcome-monochrome {
+    margin-bottom: 5px;
+}
+
+@keyframes changeGradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 200% 50%; }
+}
+
+.welcome-colored {
+    font-style: italic;
+    background-image: linear-gradient(90deg, #FFB18D, #FC7062, #FCBA57, #fbe62cd0, #c1f3ab, #a7d9eb, #a893dd, #ecabc5, #FFB18D);
+    text-shadow: 0px 0px 0px rgba(0,0,0,0);
+    -webkit-background-clip: text; /* For Safari */
+    background-clip: text;
+    color: transparent;
+    margin-top: 0px;
+    font-size: 56px;
+    background-size: 200% 100%;
+    animation: changeGradient 25s linear infinite;
+}
+
+.landing-page-partnerships {
+    text-align: center;
+    width: 100%;
+
+    margin: 40px 0px 0px 0px;
+    font-family: var(--font-family-NHG);
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.landing-page-whattodo {
+    width: 80vw;
+    max-width: 1400px;
+    margin: 40px 0px 40px 0px;
+    text-align: left;
+
+    font-family: var(--font-family-NHG);
+    font-size: 44px;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+
+@media screen and (min-width: 1200px) {
+    .landing-page-welcome {
+        width: 80vw;
+        margin: 80px 10vw 0px 10vw;
+        grid-template-columns: 100%;
+    }
+    .landing-page-welcome-text{
+        text-align: center;
+        font-size: 72px;
+    }
+    .welcome-colored {
+        font-size: 88px;
+    }
+    .landing-page-whattodo{
+        /* width: 86vw; */
+        font-size: 56px;
+    }
+    
+    .lp-rb-container {
+        display: grid;
+        row-gap: 75px;
+    }
+}
+
+/*
+paydaslar akacak
+belirme animasyonu
+arkaplana texture fena gitmez ha BASIT
+sunlari ayri component yap typewrite faln
+footer*/

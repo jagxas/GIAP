@@ -1,0 +1,14 @@
+.lp-typewriter {
+    overflow: hidden;
+    font-size: 14px;
+    letter-spacing: -0px;
+    width: 80vw;
+    /* font-family: 'Consolas'; */
+    font-weight: 500;
+    text-align: center;
+}
+  
+  /* Animation styles */
+.lp-typewriter-text span {
+    display: none; /* Initially hide all spans */
+}
