@@ -63,7 +63,7 @@ body {
     margin: 40px 0px 0px 0px;
     font-family: var(--font-family-NHG);
     font-weight: 500;
-    font-size: 18px;
+    font-size: 21px;
 }
 
 .landing-page-whattodo {
@@ -73,7 +73,7 @@ body {
     text-align: left;
 
     font-family: var(--font-family-NHG);
-    font-size: 44px;
+    font-size: 42px;
     font-weight: 500;
     text-decoration: underline;
 }

@@ -1,0 +1,24 @@
+.photobanner {
+  position: relative; 
+  top:0px; 
+  left:0px; 
+  width: 100vw;
+  overflow:hidden; 
+  white-space: nowrap;
+  margin-top: 25px;
+  /* animation: bannermove 10s linear infinite; */
+ }
+
+.lp-partner-img {
+  height: 40px;
+  margin-right: 50px;
+}
+
+ @keyframes bannermove {
+  0% {
+      transform: translate(0, 0);
+ }
+  100% {
+      transform: translate(-50%, 0);
+ }
+}

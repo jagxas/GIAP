@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 
 import { LandingPageRedirectBox } from '../../Components/LandingPage/RedirectBox/LandingPageRedirectBox'
 import { Typewriter } from '../../Components/LandingPage/Typewriter/Typewriter'
+import { PartnerSlider } from '../../Components/LandingPage/Slider/PartnerSlider'
 import '../LandingPage/LandingPage.css'
 
 export const LandingPage = () => {
@@ -78,6 +79,7 @@ export const LandingPage = () => {
                 <div className='landing-page-partnerships'>
                     Paydaşlarımız
                 </div>
+                <PartnerSlider/>
             </section>
 
             <section className="lpScrollSelector">
